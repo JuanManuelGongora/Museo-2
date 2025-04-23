@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Museo de Mi Cachetona</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f6f4f0;
+      color: #333;
+    }
+
+    header {
+      background-color: #d4af37;
+      padding: 1rem;
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #fff;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .gallery-item {
+      background: white;
+      border: 2px solid #ccc;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-item:hover {
+      transform: scale(1.03);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .caption {
+      padding: 1rem;
+      text-align: center;
+      font-style: italic;
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>El Museo de Mi Cachetona</h1>
+  </header>
+
+  <section class="gallery">
+    <div class="gallery-item">
+      <img src="Piscina.jpg" alt="Mi bebe de vacaciones">
+      <div class="caption">Mi bebe de vacaciones 🥰</div>
+    </div>
+    <div class="gallery-item">
+      <img src="primera.jpg" alt="Primera foto">
+      <div class="caption">La primera vez que te vi 😍</div>
+    </div>
+    <div class="gallery-item">
+      <img src="distraida.jpg" alt="Foto distraida">
+      <div class="caption">Recuerdas esta foto? 🤭</div>
+    </div>
+    <div class="gallery-item">
+        <img src="universidad.jpg" alt="Foto en la u">
+        <div class="caption">Toda hermosa en la U 🥺</div>
+      </div>
+      <div class="gallery-item">
+        <img src="guapa.jpg" alt="guapa">
+        <div class="caption">jsjsj y esa guapa?</div>
+      </div>
+      <div class="gallery-item">
+        <img src="pelinegra.jpg" alt="pelinegra">
+        <div class="caption">Mi pelinegra ❤️</div>
+      </div>
+      <div class="gallery-item">
+        <img src="clases.jpg" alt="En clases">
+        <div class="caption">En claseees 👩‍🏫</div>
+      </div>
+      <div class="gallery-item">
+        <img src="Enferma.jpg" alt="Enfermita">
+        <div class="caption">Mi bebe enfermita 🥺</div>
+      </div>
+      <div class="gallery-item">
+        <img src="Juntos.png" alt="Juntos">
+        <div class="caption">Algun dia 🥺❤️</div>
+      </div>
+    <!-- Agrega más bloques como estos con diferentes fotos y textos -->
+  </section>
+
+</body>
+</html>
